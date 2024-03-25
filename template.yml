@@ -1,0 +1,28 @@
+panels:
+  template:
+    perm: admin
+    rows: '6'
+    title: '&8New Panel'
+    empty: AIR
+    item:
+      '4':
+        material: COBBLESTONE
+        stack: 1
+        name: '&fClick Me!'
+        commands:
+          - 'msg= You clicked, the item!'
+          - cpc
+      '13':
+        material: acacia_fence_gate
+      '21':
+        material: acacia_pressure_plate
+        commands:
+          - gamemode creative
+      '22':
+        material: acacia_fence
+      '23':
+        material: acacia_chest_boat
+        commands:
+          - gamemode survival
+    commands:
+      - hola
